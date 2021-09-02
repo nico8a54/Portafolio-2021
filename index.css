@@ -1,0 +1,144 @@
+
+
+
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Roboto', sans-serif;
+    --BlackText: rgb(19, 19, 19);
+    color: var(--BlackText);
+}
+body {
+    height: 100vh;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 6rem;
+    background-color: rgba(235, 235, 235, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;    
+}
+.nav_text, .material-icons-round{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.--center {
+    justify-self: center;
+}
+.nav_menu {
+    z-index: 2;
+    text-align: end;
+}
+.nav_menu :hover {
+    cursor: pointer;
+}
+
+/* MENU */
+.menuWrapper {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 15%;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translateY(-100vh);
+    transition: 750ms;
+    transition-timing-function:ease-in;
+}
+
+.menuWrapper_h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transform: translateY(-100vh);
+    transition: 850ms;
+    transition-timing-function:ease-in-out;
+
+}
+
+.menuWrapper h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: whitesmoke;
+    text-transform: uppercase;
+    filter: blur(2px);
+    /* transform: translateY(-100vh);
+    transition: 800ms;
+    transition-timing-function:ease-in; */
+
+}
+.menuWrapper h2:hover {
+    font-size: 4.5rem;
+    cursor: pointer;
+    filter: none;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: 75vh;
+    background-color: #3A3A3A;
+    display: flex;
+    justify-content: center;
+}
+.footerContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    position: relative;
+}
+.footerContainer h2 {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-bottom: 0.8rem;
+}
+.footerContainer_line {
+    width: 120px;
+    height: 1px;
+    background-color: whitesmoke;
+    margin-bottom: 2.4rem;
+}
+.footerContainer a {
+    color: whitesmoke;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footerContainer a:hover {
+    text-decoration: underline;
+}
+.footer_foot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    position: absolute;
+    bottom: 20px;
+}
+
+.footer_foot p {
+    color: whitesmoke;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
