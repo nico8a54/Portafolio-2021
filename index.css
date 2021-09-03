@@ -286,6 +286,44 @@ main {
 .product {
     margin-top: 20rem;
 }
+
+/* PAGE WORK */
+.workDigital {
+    grid-template-columns: auto auto auto;
+}
+.work {
+    margin-top: 10rem;
+}
+.digital {
+    margin-bottom: 0;
+}
+.digitalH2 {
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;;
+    font-weight: bold;
+    margin-bottom: .8rem;
+}
+.imageTuAsiento {
+    background-image: url(../assets/tuAsiento.png);
+    background-size: cover;
+}
+.imageCoronaPro {
+    background-image: url(../assets/coronPro.png);
+    background-size: cover;
+}
+.imageLanzamiento2020 {
+    background-image: url(../assets/Lanzamiento2020.png);
+    background-size: cover;
+}
+.imageLanzamiento2021 {
+    background-image: url(../assets/Lanzamiento2021.png);
+    background-size: cover;
+}
+.imagePortfolio {
+    background-image: url(../assets/tuAsiento.png);
+    background-size: cover;
+}
+
 /* FOOTER */
 footer {
     width: 100%;
