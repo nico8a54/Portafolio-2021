@@ -60,7 +60,7 @@ header {
 /* MENU */
 .menuWrapper {
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -374,7 +374,7 @@ main {
     width: 100%;
     height: 300px;
     background-image: url(../assets/tuAsiento.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 0.8rem;
@@ -405,4 +405,30 @@ main {
     font-family: 'Roboto Slab', serif;;
     font-weight: bold;
     margin-bottom: .8rem;
+}
+
+/* PAGE PRODUCT */
+.imageIngo {
+    background-image: url(./assets/ingo.png);
+    /* background-color: #e63946 */
+}
+.imageLiquid {
+    background-image: url(./assets/Liquid.png);
+    /* background-color: #e63946 */
+}
+.imagePerkin {
+    background-image: url(./assets/perkinElmer.png);
+    /* background-color: #e63946 */
+}
+.imageManantial {
+    background-image: url(./assets/Manantial.png);
+    /* background-color: #e63946 */
+}
+.imageCascade {
+    background-image: url(./assets/Cascade.png);
+    /* background-color: #e63946 */
+}
+.imageJohnDeere {
+    background-image: url(./assets/JohnDeere.png);
+    /* background-color: #e63946 */
 }

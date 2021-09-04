@@ -4,7 +4,7 @@ const menuH2 = document.getElementById("menu_h2");
 
 function openMenu() {
     if (hamburger.style.color === "black") {
-        hamburger.style.color = "yellow";
+        hamburger.style.color = "white";
         hamburger.innerText = "menu_open";
         menu.style.transform = "translateY(0vh)";
         menuH2.style.transform = "translateY(0vh)";
