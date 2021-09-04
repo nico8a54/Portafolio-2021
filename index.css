@@ -271,7 +271,7 @@ main {
     align-items: center;
 }
 .intro {
-    padding: 200px 0 100px 0;
+    padding: 200px 0 0px 0;
     width: var(--WidthS);
 }
 .intro p {
@@ -280,7 +280,7 @@ main {
 /* WORK SECTION */
 .work {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     gap: 2.0rem;
     margin-top: 200px;
 }
@@ -328,6 +328,15 @@ main {
 }
 
 /* PAGE DIGITAL */
+.tittle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.0rem;
+    margin-top: 200px;
+}
+.tittle_indexCard {
+    grid-column: 1 / span 2;
+}
 .card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
