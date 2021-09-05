@@ -13,6 +13,7 @@
     --BlueShadow: rgba(63, 63, 252, 0.4);  
     --Width: 15%;
     --WidthS: 60%;
+    --Width100: 100%;
     color: var(--BlackText);
 }
 p {
@@ -286,25 +287,33 @@ main {
 /* INTRODUCTION SECTION */
 .section {
     width: 100%;
-    padding: 0 var(--Width);
+    padding: 0 var(--Width) 0 var(--Width);
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
 }
 .intro {
-    padding: 200px 0 0px 0;
+    padding: 200px 0 200px 0;
     width: var(--WidthS);
 }
 .intro p {
     text-align: justify;
 }
 /* WORK SECTION */
-.work {
+.grid {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 2.0rem;
+}
+.twoColumns {
+    grid-template-columns: 1fr 1fr;
+}
+.spacer200 {
     margin-top: 200px;
+}
+.spacer64 {
+    margin-top: 6.4rem;
 }
 .work_indexCard {
     margin-bottom: 20rem;
@@ -350,22 +359,12 @@ main {
 }
 
 /* PAGE DIGITAL */
-.tittle {
-    display: grid;
+
+.threeColumns {
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2.0rem;
-    margin-top: 200px;
 }
 .tittle_indexCard {
     grid-column: 1 / span 2;
-}
-.card {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    margin-top: 6.4rem;
-    margin-bottom: 20rem;
-
 }
 .card_container {
     margin-bottom: 6.4rem;
@@ -406,6 +405,18 @@ main {
     font-weight: bold;
     margin-bottom: .8rem;
 }
+.backButton {
+    width: 100%;
+    cursor: pointer;
+}
+.backButton_h3 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+.backButton_h3:hover {
+    text-decoration: underline;
+}
 
 /* PAGE PRODUCT */
 .imageIngo {
@@ -432,3 +443,59 @@ main {
     background-image: url(./assets/JohnDeere.png);
     /* background-color: #e63946 */
 }
+
+/* PAGE TEAM BUILDER */
+
+.text3columns {
+   grid-column: 1 /2 span;
+}
+.videoInterno {
+    margin: 6.4rem 0;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: violet;
+    position: relative;
+}
+.paragraphText {
+    grid-column: 1 / span 2;
+}
+.tittle_indexCard {
+    grid-column: 1 / span 2;
+}
+
+.imageParagraph {
+    background-image: url(./assets/team2.png);
+    width: 100%;
+    aspect-ratio: 16/9;;
+    background-size: cover;
+}
+.imageMetodoly {
+    height: 300px;
+    background-image: url(./assets/metodology1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.imageMetodoly2 {
+    background-image: url(./assets/metodology2.jpg);
+}
+.imageMetodoly3 {
+    background-image: url(./assets/metodology3.jpg);
+}
+.fourColumns {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.imageId2-1 {
+    background-image: url(./assets/N1Id16.gif);
+}
+.imageId2-2 {
+    background-image: url(./assets/N1Id4.gif);
+}
+.imageId2-3 {
+    background-image: url(./assets/N1Concept1.gif);
+}
+.imageId2-4 {
+    background-image: url(./assets/N1Concept2.gif);
+}
+
+
