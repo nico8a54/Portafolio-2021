@@ -11,7 +11,7 @@
     --RedShadow: rgba(255, 0, 106, 0.4);    
     --GreenShadow: rgba(90, 248, 90, 0.4);
     --BlueShadow: rgba(63, 63, 252, 0.4);  
-    --Width: 15%;
+    --Width: 25%;
     --WidthS: 60%;
     --Width100: 100%;
     color: var(--BlackText);
@@ -553,15 +553,21 @@ main {
 .grid.fourColumns.spacer64 p {
     font-size: 1.6rem;
 }
-.imageResearch2 {
-    aspect-ratio: 1180 / 365;
-    background-image: url(./assets/TuAsientoResearch2.jpg);
-}
 .videoPlayer {
     width: 100%;
-    aspect-ratio: 16/9;
-    background-color: lawngreen;
 }
 .videoPlayer video {
     width: 100%;
+}
+.imageDesignSystem {
+    aspect-ratio: 1920 / 1040;
+    background-image: url(./assets/designsystem.jpg);
+}
+.imageDesignSystem2 {
+    aspect-ratio: 1920 / 1040;
+    background-image: url(./assets/designsystem2.jpg);
+}
+.imageTuAsientoFinal {
+    aspect-ratio: 1200 / 800;
+    background-image: url(./assets/tuAsiento.png);
 }
