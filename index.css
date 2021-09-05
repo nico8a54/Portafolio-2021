@@ -312,6 +312,9 @@ main {
 .spacer200 {
     margin-top: 200px;
 }
+.spacerDown200 {
+    margin-bottom: 200px;
+}
 .spacer64 {
     margin-top: 6.4rem;
 }
@@ -407,15 +410,23 @@ main {
 }
 .backButton {
     width: 100%;
-    cursor: pointer;
 }
-.backButton_h3 {
+.backButton_button {
+    font-family: 'Roboto Condense', sans-serif;
     font-size: 2rem;
     display: flex;
     align-items: center;
+    height: 40px;
+    padding: 1.6rem;
+    background-color: transparent;
+    border: solid 3px var(--BlackText);
 }
-.backButton_h3:hover {
-    text-decoration: underline;
+.backButton_button:hover {
+    background-color: var(--BlackText);
+    color: whitesmoke;
+}
+.backButton_icon {
+    color: inherit;
 }
 
 /* PAGE PRODUCT */
@@ -475,6 +486,10 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
+    display: flex;
+    align-items: flex-end;
+    padding: 0.8rem;
+    font-size: 1.2rem;
 }
 .imageMetodoly2 {
     background-image: url(./assets/metodology2.jpg);
@@ -497,5 +512,56 @@ main {
 .imageId2-4 {
     background-image: url(./assets/N1Concept2.gif);
 }
+.ideation {
+    font-size: 1.4rem;
+    font-style: italic;
+}
 
-
+/* PAGE TU ASIENTO */
+.logoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    background-image: url(./assets/logoCorona.png);
+    background-size: cover;
+}
+.imageHero {
+    width: 100%;
+    aspect-ratio: 1800 / 367;
+    background-image: url(./assets/Banner\ interno\ categoría\ asientos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 6.4rem;
+    margin-bottom: 6.4rem;
+}
+.imageHeroCoronaPro {
+    aspect-ratio: 1800 / 367;
+    background-image: url(./assets/Banner\ interno\ categoría\ asientos.png);
+}
+.imageTuAsientoResearch {
+    aspect-ratio: 2067 / 483;
+    background-image: url(./assets/TuAsientoResearch.jpg);
+}
+.grid.fourColumns.spacer64 h2 {
+    font-size: 2.4rem;
+}
+.grid.fourColumns.spacer64 p {
+    font-size: 1.6rem;
+}
+.imageResearch2 {
+    aspect-ratio: 1180 / 365;
+    background-image: url(./assets/TuAsientoResearch2.jpg);
+}
+.videoPlayer {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-color: lawngreen;
+}
+.videoPlayer video {
+    width: 100%;
+}
