@@ -21,7 +21,9 @@ p {
     line-height: 1.3em;
     letter-spacing: 0.05em;
 }
-
+a {
+    text-decoration: none;
+}
 /* HEADER */
 header {
     width: 100%;
@@ -97,6 +99,23 @@ header {
     font-size: 6.2rem;
     cursor: pointer;
     filter: none;
+}
+.lottie {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: -136px;
+    background-color: #E63946;
+    padding: 30px;
+}
+.lottie h2 {
+    align-self: flex-start;
+    font-family: 'Monserrat' san-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 5px 0 0 #f1faee;
 }
 
 /* FOOTER */
@@ -201,6 +220,16 @@ main {
     transform: translateX(0.025em);
     animation: glitch 500ms infinite;
     opacity: 0.5;
+}
+.WIP {
+    font-size: 4rem;
+    align-self: flex-start;
+}
+.WIPportfolio {
+    background-color: #F1FAEE;
+}
+.WIPlanzamiento2021 {
+    background-color: #A8DADC;
 }
 
 @keyframes glitch {
