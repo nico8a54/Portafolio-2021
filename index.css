@@ -110,6 +110,20 @@ header {
     background-color: #E63946;
     padding: 30px;
 }
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 3;
+    opacity: 1;
+    transition: opacity 300ms;
+}
 .lottie h2 {
     align-self: flex-start;
     font-family: 'Monserrat' san-serif;

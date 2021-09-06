@@ -1,6 +1,7 @@
 const hamburger = document.getElementById("hamburger");
 const menu = document.getElementById("menu");
 const menuH2 = document.getElementById("menu_h2");
+const spinner = document.getElementById("spinner");
 
 function openMenu() {
     if (hamburger.style.color === "black") {
@@ -19,3 +20,14 @@ function openMenu() {
 }
 
 hamburger.addEventListener("click",openMenu);
+
+function delaySpinner () {
+  spinner.style.display = "none";
+}
+
+function showSpinner () {
+  spinner.style.opacity = "0";
+  setTimeout (delaySpinner, 300);
+}
+
+window.addEventListener("load",showSpinner);
