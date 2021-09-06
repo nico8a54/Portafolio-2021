@@ -323,10 +323,10 @@ main {
     background-color: white;
 }
 .sectionIndex{
-    padding: 15%;
+    padding: 0 15%;
 }
 .intro {
-    padding: 200px 0 200px 0;
+    padding: 200px 0 200px 50px;
     width: var(--WidthS);
     margin: 0 auto;
 }
