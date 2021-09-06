@@ -290,12 +290,13 @@ main {
     padding: 0 var(--Width) 0 var(--Width);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     background-color: white;
 }
 .intro {
     padding: 200px 0 200px 0;
     width: var(--WidthS);
+    margin: 0 auto;
 }
 .intro p {
     text-align: justify;
@@ -571,3 +572,27 @@ main {
     aspect-ratio: 1200 / 800;
     background-image: url(./assets/tuAsiento.png);
 }
+.imageEmail1 {
+    aspect-ratio: 361 / 412;
+    background-image: url(./assets/email1.jpg);
+    border: solid 3px rgb(228, 228, 228);
+}
+.imageEmail2 {
+    aspect-ratio: 361 / 412;
+    background-image: url(./assets/email2.jpg);
+    border: solid 3px rgb(228, 228, 228);
+}
+.imageEmail3 {
+    aspect-ratio: 361 / 412;
+    background-image: url(./assets/email3.jpg);
+    border: solid 3px rgb(228, 228, 228);
+}
+.imageLanzamiento2021Miro {
+    aspect-ratio: 1224 / 826;
+    background-image: url(./assets/Lanzamiento2020.png);
+}
+.imageLanzamiento2020Full {
+    aspect-ratio: 1224 / 826;
+    background-image: url(./assets/Lanzamiento2020.png);
+}
+
