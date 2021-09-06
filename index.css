@@ -61,7 +61,7 @@ header {
 /* MENU */
 .menuWrapper {
     position: fixed;
-    z-index: 0;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
