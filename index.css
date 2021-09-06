@@ -177,7 +177,7 @@ main {
 /* HERO SECTION */
 .hero {
     width: 100%;
-    padding: 0 var(--Width);
+    padding: 0 15%;
     max-height: 100%;
     height: 100vh;
     overflow: hidden;
@@ -276,7 +276,7 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url(../assets/NicolásOchoa-82.png);
+    background-image: url(./assets/NicolásOchoa-82.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center ;
@@ -322,6 +322,9 @@ main {
     /* align-items: center; */
     background-color: white;
 }
+.sectionIndex{
+    padding: 15%;
+}
 .intro {
     padding: 200px 0 200px 0;
     width: var(--WidthS);
@@ -355,7 +358,7 @@ main {
 .work_indexCard-image {
     width: 100%;
     height: 30rem;
-    background-image: url(../assets/product.png);
+    background-image: url(./assets/product.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center ;
@@ -363,13 +366,33 @@ main {
     margin-bottom: 2.4rem;
 }
 .imageDigital {
-    background-image: url(../assets/digital.png);
+    background-image: url(./assets/digital.png);
 }
 .imageTeamLeader {
-    background-image: url(../assets/team.png);
+    background-image: url(./assets/team.png);
 }
 .imageTalk {
-    background-image: url(../assets/talks.png);
+    background-image: url(./assets/talks.png);
+}
+.card_imageTalk {
+    width: 100%;
+    aspect-ratio: 1152 / 648;
+    background-image: url(./assets/talk.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0.8rem;}
+.imageTalk2 {
+    background-image: url(./assets/talk1.jpg);
+}
+.imageTalk1 {
+    background-image: url(./assets/talk2.jpg);
+}
+.imageTalk3 {
+    background-image: url(./assets/talk3.jpg);
+}
+.imageTalk4 {
+    background-image: url(./assets/talk4.jpg);
 }
 .work_indexCard-text {
     padding-right: 10px;
@@ -402,38 +425,42 @@ main {
 .card_container {
     margin-bottom: 6.4rem;
 }
+.card_container p {
+    font-size: 1.6rem;
+}
+
 .card_image {
     width: 100%;
-    height: 300px;
-    background-image: url(../assets/tuAsiento.png);
+    aspect-ratio: 1 / 1;
+    background-image: url(./assets/tuAsiento.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 0.8rem;
 }
 .imageTuAsiento {
-    background-image: url(../assets/tuAsiento.png);
+    background-image: url(./assets/tuAsiento.png);
     background-color: #1d3557
 }
 
 .imageLanzamiento2020 {
-    background-image: url(../assets/Lanzamiento2020.png);
+    background-image: url(./assets/Lanzamiento2020.png);
     background-color: #457b9d
 }
 .imageLanzamiento2021 {
-    background-image: url(../assets/Lanzamiento2021.png);
+    background-image: url(./assets/Lanzamiento2021.png);
     background-color: #a8dadc
 }
 .imagePortfolio {
-    background-image: url(../assets/portfolio.png);
+    background-image: url(./assets/portfolio.png);
     background-color: #f1faee;
 }
 .imageCoronaPro {
-    background-image: url(../assets/coronaPro.png);
+    background-image: url(./assets/coronaPro.png);
     background-color: #e63946
 }
 .card_h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Roboto Slab', serif;;
     font-weight: bold;
     margin-bottom: .8rem;
@@ -511,7 +538,8 @@ main {
     background-size: cover;
 }
 .imageMetodoly {
-    height: 300px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
     background-image: url(./assets/metodology1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -560,6 +588,15 @@ main {
     background-image: url(./assets/logoCorona.png);
     background-size: cover;
 }
+.logoMuma {
+    background-image: url(./assets/logoMuma.png);
+}
+.logoPerkinElmer {
+    background-image: url(./assets/logoPerkinElmer.png);
+}
+.logoDeere {
+    background-image: url(./assets/logoDeere.png);
+}
 .imageHero {
     width: 100%;
     aspect-ratio: 1800 / 367;
@@ -598,7 +635,7 @@ main {
     background-image: url(./assets/designsystem2.jpg);
 }
 .imageTuAsientoFinal {
-    aspect-ratio: 1200 / 800;
+    aspect-ratio: 1 / 1;
     background-image: url(./assets/tuAsiento.png);
 }
 .imageEmail1 {
@@ -621,7 +658,7 @@ main {
     background-image: url(./assets/Lanzamiento2020.png);
 }
 .imageLanzamiento2020Full {
-    aspect-ratio: 1224 / 826;
+    aspect-ratio: 1 / 1;
     background-image: url(./assets/Lanzamiento2020.png);
 }
 
