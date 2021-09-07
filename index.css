@@ -27,11 +27,11 @@ a {
 /* HEADER */
 header {
     width: 100%;
-    height: 8rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: -8rem;
+    margin-bottom: -10rem;
 }
 .nav {
     display: grid;
@@ -179,7 +179,6 @@ footer {
     font-size: 1.6rem;
     text-transform: uppercase;
 }
-
 
 /* MAIN */
 main {
@@ -340,7 +339,7 @@ main {
     padding: 0 15%;
 }
 .intro {
-    padding: 200px 0 200px 50px;
+    padding: 200px 0 200px 0px;
     width: var(--WidthS);
     margin: 0 auto;
 }
@@ -371,7 +370,7 @@ main {
 }
 .work_indexCard-image {
     width: 100%;
-    height: 30rem;
+    aspect-ratio: 602 / 350;
     background-image: url(./assets/product.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -676,3 +675,135 @@ main {
     background-image: url(./assets/Lanzamiento2020.png);
 }
 
+/* RESPONSIVE */
+
+@media only screen 
+  and (min-device-width: 355px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    * {
+        --Width: 25%;
+        --WidthS: 60%;
+        --Width100: 100%;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+
+    .nav {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .nav_text {
+        display: none;
+    }
+    .menuWrapper {
+        padding-right: 24px;
+    }
+    .menuWrapper h2 {
+        font-size: 3rem;
+        line-height: 1.3;
+        filter: blur(1px);
+    }
+    .menuWrapper h2:hover {
+        font-size: 3.2rem;
+    }
+    .lottie h2 {
+        font-size: 2rem;
+    }
+    footer {
+        height: 50vh;
+    }
+    .footerContainer {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 24px ;
+        flex-direction: column;
+    }
+    .footerContainer h2 {
+        font-size: 3rem;
+    }
+    .footerContainer_line {
+        width: 120px;
+    }
+    .footerContainer a {
+        font-size: 1.4rem;
+    }
+    .foot {
+        display: none;
+    }
+    .hero {
+        width: 100%;
+        padding: 0 24px 24px 24px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 2fr 1fr;
+        grid-row-gap: 24px;
+        margin-bottom: 85vh;
+    }
+    .hero_left{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: auto;
+    }
+    .hero_left-heroText{
+        font-size: 4rem;
+    }
+    .hero_right{
+        background-image: url(./assets/NicolasOchoa-mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom ;
+        background-position-x: center;
+        overflow: hidden;
+    }
+    .section {
+        padding: 64px 24px;
+    }
+    .sectionIndex{
+        padding: 64px 24px;
+    }
+    .intro {
+        padding:  0;
+        width: 100%;
+        margin: 0;
+    }
+    .intro p {
+        text-align: justify;
+    }
+
+    .grid {
+        gap: 1.6rem;
+    }
+    .twoColumns {
+        grid-template-columns: 1fr;
+    }
+    .spacer200 {
+        margin-top: 200px;
+    }
+    .work_indexCard {
+        margin-bottom: 6.4rem;
+    }
+    .work_indexCard-image {
+        width: 100%;
+        margin-bottom: 1.6rem;
+    }
+    .product {
+        margin-top: 0rem;
+    }
+    .work_indexCard-text {
+        padding-right: 0;
+    }
+    .work_indexCard-text--h3 {
+        font-size: 1.8rem;
+    }
+    .work_indexCard-text--h2 {
+        font-size: 3rem;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-bottom: 1.6rem;
+    }
+    .work_indexCard p {
+        text-align: left;
+        line-break: none;
+    }
