@@ -407,6 +407,11 @@ main {
 .imageTalk4 {
     background-image: url(./assets/talk4.jpg);
 }
+.work_indexCard {
+    padding: 24px;
+    box-shadow: 0 0 30px  rgba(116, 116, 116, 0.25);
+    border-radius: 5px;
+}
 .work_indexCard-text {
     padding-right: 10px;
 }
@@ -474,7 +479,7 @@ main {
 }
 .card_h2 {
     font-size: 2rem;
-    font-family: 'Roboto Slab', serif;;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
     margin-bottom: .8rem;
 }
@@ -547,7 +552,7 @@ main {
 .imageParagraph {
     background-image: url(./assets/team2.png);
     width: 100%;
-    aspect-ratio: 16/9;;
+    aspect-ratio: 16/9;
     background-size: cover;
 }
 .imageMetodoly {
@@ -709,6 +714,10 @@ main {
     aspect-ratio: 2500 / 966;
     background-image: url(./assets/imageMuma7.jpg);
 }
+.imageMuma8 {
+    aspect-ratio: 1146 / 644;
+    background-image: url(./assets/imageMuma8.jpg);
+}
 .youtube {
     background-color: black;
     padding: 24px;
@@ -717,14 +726,42 @@ main {
     display: flex;
     justify-content: center;
 }
-
-
+.youtubeMobile {
+    margin: 64px 0;
+    aspect-ratio: 1146 / 644;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* PAGE LIQUID */
+.imageHeroLiquid {
+    aspect-ratio: 1440 / 930;
+    background-image: url(./assets/liquidHero.png);
+}
+.imageLiquid1 {
+    aspect-ratio: 1170 / 455;
+    background-image: url(./assets/imageLiquid2.jpg);
+    margin-bottom: 6.4rem;
+}
+.imageLiquid2 {
+    aspect-ratio: 1170 / 558;
+    background-image: url(./assets/imageLiquid3.jpg);
+}
+.imageLiquid3 {
+    aspect-ratio: 1170 / 968;
+    background-image: url(./assets/imageLiquid4.jpg);
+    margin-bottom: 6.4rem;
+}
+.imageLiquid4 {
+    aspect-ratio: 1170 / 458;
+    background-image: url(./assets/imageLiquid5.jpg);
+}
 /* RESPONSIVE */
 
 @media only screen 
-  and (min-device-width: 355px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  and (min-device-width: 320px) 
+  and (max-device-width: 896px) 
+  /* and (-webkit-min-device-pixel-ratio: 3) {  */{
 
     * {
         --Width: 25%;
@@ -863,8 +900,8 @@ main {
         display: none;
     }
     .imageHero {
-        margin-top: 0rem;
-        margin-bottom: 0rem;
+        margin-top: 6.4rem;
+        margin-bottom: 6.4rem;
     }
     .fourColumns {
         grid-template-columns: 1fr;
@@ -880,3 +917,21 @@ main {
         margin-bottom: 64px;
         padding: 30px;
     }
+    .youtube {
+        display: none;
+    }
+    .youtubeMobile {
+        display: inline;
+    }
+    .card_imageTalk.imageMuma8{
+        padding: 0;
+        margin: 0;
+    }
+    .card_container {
+    margin-bottom: 6.4rem;
+    padding: 24px;
+    box-shadow: 0 0 30px  rgba(116, 116, 116, 0.25);
+    border-radius: 5px;
+    }
+   
+} 
