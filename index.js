@@ -3,6 +3,11 @@ const menu = document.getElementById("menu");
 const menuH2 = document.getElementById("menu_h2");
 const spinner = document.getElementById("spinner");
 
+var tag = document.createElement("h2");
+var awards = document.createTextNode("Awards");
+tag.appendChild(awards);
+menuH2.appendChild(tag);
+
 function openMenu() {
     if (hamburger.style.color === "black") {
         hamburger.style.color = "white";

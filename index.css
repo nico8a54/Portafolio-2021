@@ -11,6 +11,7 @@
     --RedShadow: rgba(255, 0, 106, 0.4);    
     --GreenShadow: rgba(90, 248, 90, 0.4);
     --BlueShadow: rgba(63, 63, 252, 0.4);  
+    --Background: rgba(211, 211, 211, 0.5);
     --Width: 25%;
     --WidthS: 60%;
     --Width100: 100%;
@@ -387,6 +388,10 @@ main {
 .imageTalk {
     background-image: url(./assets/talks.png);
 }
+.work_indexCard-image.imageAwards {
+    background-color: var(--Background);
+}
+
 .card_imageTalk {
     width: 100%;
     aspect-ratio: 1152 / 648;
@@ -407,11 +412,32 @@ main {
 .imageTalk4 {
     background-image: url(./assets/talk4.jpg);
 }
-.work_indexCard {
-    padding: 24px;
-    box-shadow: 0 0 30px  rgba(116, 116, 116, 0.25);
-    border-radius: 5px;
+.card_imageAwards {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-image: url(./assets/redDot.png);
+    background-color: var(--Background);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0.8rem;
 }
+.imageAwards {
+    background-image: url(./assets/Awards3.png);
+}
+.imageAwardsRedDot {
+    background-image: url(./assets/redDot.png);
+}
+.imageAwardsIF {
+    background-image: url(./assets/IFDesign.png);
+}
+.imageAwardsGood {
+    background-image: url(./assets/GoodDesign.png);
+}
+.imageAwardsA {
+    background-image: url(./assets/ADesign.png);
+}
+
 .work_indexCard-text {
     padding-right: 10px;
 }
@@ -866,6 +892,9 @@ main {
     }
     .work_indexCard {
         margin-bottom: 6.4rem;
+        padding: 24px;
+        box-shadow: 0 0 30px  rgba(116, 116, 116, 0.25);
+        border-radius: 5px;
     }
     .work_indexCard-image {
         width: 100%;
