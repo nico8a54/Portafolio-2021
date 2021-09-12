@@ -22,6 +22,7 @@ p {
     line-height: 1.3em;
     letter-spacing: 0.05em;
 }
+
 a {
     text-decoration: none;
 }
@@ -456,6 +457,30 @@ main {
 }
 .product {
     margin-top: 20rem;
+}
+
+/*SECTION TESTIMONIALS*/
+.quote_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20rem;
+    margin-top: 2.4rem;
+}
+.quote_container a{
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.quote {
+    font-style: italic;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+.quoteName {
+    font-weight: 600;
+}
+.quotePosition {
+    font-size: 1.6rem;
 }
 
 /* PAGE DIGITAL */
@@ -962,5 +987,10 @@ main {
     box-shadow: 0 0 30px  rgba(116, 116, 116, 0.25);
     border-radius: 5px;
     }
+    
+    .quote_container {
+        margin-bottom: 3.2rem;
+    }
+   
    
 } 
