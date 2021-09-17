@@ -197,8 +197,8 @@ main {
     height: 100vh;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1.6rem;
     padding-top: 6rem;
     margin-bottom: 85vh;
     background-color: white;
@@ -209,7 +209,7 @@ main {
     justify-content: center;
 }
 .hero_left-heroText{
-    font-size: 6.5rem;
+    font-size: 6.6rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     line-height: .9;
@@ -371,7 +371,8 @@ main {
     cursor: pointer;
 }
 .work_indexCard-image {
-    width: 100%;
+    width: 100vw;
+    height: calc ();
     aspect-ratio: 602 / 350;
     background-image: url(./assets/product.png);
     background-repeat: no-repeat;
@@ -395,7 +396,8 @@ main {
 
 .card_imageTalk {
     width: 100%;
-    aspect-ratio: 1152 / 648;
+    height: calc(100vw * 648 / 1152);
+    /* aspect-ratio: 1152 / 648; */
     background-image: url(./assets/talk.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -811,7 +813,7 @@ main {
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 896px) 
+  and (max-device-width: 1007px) 
   /* and (-webkit-min-device-pixel-ratio: 3) {  */{
 
     * {
@@ -881,7 +883,7 @@ main {
         height: auto;
     }
     .hero_left-heroText{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .hero_right{
         background-image: url(./assets/NicolasOchoa-mobile.png);
@@ -920,9 +922,10 @@ main {
         padding: 24px;
         box-shadow: 0 0 30px  rgba(116, 116, 116, 0.25);
         border-radius: 5px;
+        overflow: hidden;
     }
     .work_indexCard-image {
-        width: 100%;
+        width: 100vw;
         margin-bottom: 1.6rem;
     }
     .product {
