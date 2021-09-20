@@ -563,8 +563,8 @@ main {
 }
 .videoInterno {
     margin: 6.4rem 0;
-    width: 100%;
-    aspect-ratio: 16 / 9;
+    width: 100vw;
+    height: calc(100vw * 9 / 16);
     background-color: violet;
     position: relative;
 }
@@ -674,28 +674,14 @@ main {
     background-image: url(./assets/tuAsiento.png);
 }
 .imageEmail1 {
-    aspect-ratio: 361 / 412;
-    background-image: url(./assets/email1.jpg);
     border: solid 3px rgb(228, 228, 228);
 }
-.imageEmail2 {
-    aspect-ratio: 361 / 412;
-    background-image: url(./assets/email2.jpg);
-    border: solid 3px rgb(228, 228, 228);
-}
-.imageEmail3 {
-    aspect-ratio: 361 / 412;
-    background-image: url(./assets/email3.jpg);
-    border: solid 3px rgb(228, 228, 228);
-}
+
 .imageLanzamiento2021Miro {
     aspect-ratio: 1224 / 826;
     background-image: url(./assets/Lanzamiento2020.png);
 }
-.imageLanzamiento2020Full {
-    aspect-ratio: 1 / 1;
-    background-image: url(./assets/Lanzamiento2020.png);
-}
+
 /* INGO CHAIR */
 .imageHeroMuma {
     aspect-ratio: 961 / 600;
