@@ -375,7 +375,6 @@ main {
 }
 .work_indexCard-image {
     width: 100%;
-    aspect-ratio: 602 / 350;
     margin-bottom: 2.4rem;
 }
 .work_indexCard-image.imageAwards {
