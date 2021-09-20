@@ -530,32 +530,6 @@ main {
     color: inherit;
 }
 
-/* PAGE PRODUCT */
-.imageIngo {
-    background-image: url(./assets/ingo.png);
-    /* background-color: #e63946 */
-}
-.imageLiquid {
-    background-image: url(./assets/Liquid.png);
-    /* background-color: #e63946 */
-}
-.imagePerkin {
-    background-image: url(./assets/perkinElmer.png);
-    /* background-color: #e63946 */
-}
-.imageManantial {
-    background-image: url(./assets/Manantial.png);
-    /* background-color: #e63946 */
-}
-.imageCascade {
-    background-image: url(./assets/Cascade.png);
-    /* background-color: #e63946 */
-}
-.imageJohnDeere {
-    background-image: url(./assets/JohnDeere.png);
-    /* background-color: #e63946 */
-}
-
 /* PAGE TEAM BUILDER */
 
 .text3columns {
@@ -943,6 +917,13 @@ main {
     .quote_container {
         margin-bottom: 3.2rem;
     }
-   
-   
 } 
+
+@media only screen and (min-device-width: 701px) {
+    .section {
+        padding: 0 6.4rem;
+    }
+    .hero_left-heroText {
+        font-size: 3.2rem;
+    } 
+}
