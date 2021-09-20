@@ -338,7 +338,7 @@ main {
     background-color: white;
 }
 .sectionIndex{
-    padding: 0 15%;
+    padding: 0 20%;
 }
 .intro {
     padding: 200px 0 200px 0px;
@@ -655,44 +655,11 @@ main {
 }
 
 /* INGO CHAIR */
-.imageHeroMuma {
-    aspect-ratio: 961 / 600;
-    background-image: url(./assets/ingoHero.jpg);
-}
+
 .imageMuma1 {
-    aspect-ratio: 1170 / 457;
-    background-image: url(./assets/imageMuma1.png);
-    margin-bottom: 64px;
+     margin-bottom: 64px;
 }
-.imageMuma2 {
-    aspect-ratio: 1170 / 305;
-    background-image: url(./assets/imageMuma2.png);
-    margin-bottom: 64px;
-}
-.imageMuma3 {
-    aspect-ratio: 1170 / 483;
-    background-image: url(./assets/imageMuma3.jpg);
-}
-.imageMuma4 {
-    aspect-ratio: 1170 / 467;
-    background-image: url(./assets/imageMuma4.jpg);
-}
-.imageMuma5 {
-    aspect-ratio: 1170 / 359;
-    background-image: url(./assets/imageMuma5.jpg);
-}
-.imageMuma6 {
-    aspect-ratio: 1500 / 641;
-    background-image: url(./assets/imageMuma6.jpg);
-}
-.imageMuma7 {
-    aspect-ratio: 2500 / 966;
-    background-image: url(./assets/imageMuma7.jpg);
-}
-.imageMuma8 {
-    aspect-ratio: 1146 / 644;
-    background-image: url(./assets/imageMuma8.jpg);
-}
+
 .youtube {
     background-color: black;
     padding: 24px;
@@ -703,8 +670,8 @@ main {
 }
 .youtubeMobile {
     margin: 64px 0;
-    aspect-ratio: 1146 / 644;
     width: 100%;
+    height: 315px;
     display: flex;
     justify-content: center;
 }
@@ -919,7 +886,11 @@ main {
     }
 } 
 
-@media only screen and (min-device-width: 701px) {
+@media only screen 
+and (min-device-width: 701px)
+and (max-device-width: 1007px) 
+
+{
     .section {
         padding: 0 6.4rem;
     }
