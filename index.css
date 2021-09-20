@@ -517,7 +517,7 @@ main {
     font-size: 2rem;
     display: flex;
     align-items: center;
-    height: 40px;
+    height: auto;
     padding: 1.6rem;
     background-color: transparent;
     border: solid 3px var(--BlackText);
