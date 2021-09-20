@@ -370,29 +370,17 @@ main {
     margin-bottom: 20rem;
     cursor: pointer;
 }
+.index_image {
+    width: 100%;
+}
 .work_indexCard-image {
     width: 100%;
     aspect-ratio: 602 / 350;
-    background-image: url(./assets/product.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center ;
-    background-position-x: center;
     margin-bottom: 2.4rem;
-}
-.imageDigital {
-    background-image: url(./assets/digital.png);
-}
-.imageTeamLeader {
-    background-image: url(./assets/team.png);
-}
-.imageTalk {
-    background-image: url(./assets/talks.png);
 }
 .work_indexCard-image.imageAwards {
     background-color: var(--Background);
 }
-
 .card_imageTalk {
     width: 100%;
     aspect-ratio: 1152 / 648;
@@ -422,9 +410,6 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 0.8rem;
-}
-.imageAwards {
-    background-image: url(./assets/Awards3.png);
 }
 .imageAwardsRedDot {
     background-image: url(./assets/redDot.png);
@@ -501,31 +486,22 @@ main {
 .card_image {
     width: 100%;
     aspect-ratio: 1 / 1;
-    background-image: url(./assets/tuAsiento.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 0.8rem;
 }
 .imageTuAsiento {
-    background-image: url(./assets/tuAsiento.png);
     background-color: #1d3557
 }
 
 .imageLanzamiento2020 {
-    background-image: url(./assets/Lanzamiento2020.png);
-    background-color: #457b9d
+    background-color: #457b9d;
 }
 .imageLanzamiento2021 {
-    background-image: url(./assets/Lanzamiento2021.png);
     background-color: #a8dadc
 }
 .imagePortfolio {
-    background-image: url(./assets/portfolio.png);
     background-color: #f1faee;
 }
 .imageCoronaPro {
-    background-image: url(./assets/coronaPro.png);
     background-color: #e63946
 }
 .card_h2 {
@@ -601,10 +577,9 @@ main {
 }
 
 .imageParagraph {
-    background-image: url(./assets/team2.png);
     width: 100%;
-    aspect-ratio: 16/9;
-    background-size: cover;
+    max-width: 100%;
+    height: auto;
 }
 .imageMetodoly {
     width: 100%;
@@ -681,7 +656,6 @@ main {
 }
 .imageTuAsientoResearch {
     aspect-ratio: 2067 / 483;
-    background-image: url(./assets/TuAsientoResearch.jpg);
 }
 .grid.fourColumns.spacer64 h2 {
     font-size: 2.4rem;
@@ -695,14 +669,7 @@ main {
 .videoPlayer video {
     width: 100%;
 }
-.imageDesignSystem {
-    aspect-ratio: 1920 / 1040;
-    background-image: url(./assets/designsystem.jpg);
-}
-.imageDesignSystem2 {
-    aspect-ratio: 1920 / 1040;
-    background-image: url(./assets/designsystem2.jpg);
-}
+
 .imageTuAsientoFinal {
     aspect-ratio: 1 / 1;
     background-image: url(./assets/tuAsiento.png);
