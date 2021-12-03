@@ -682,7 +682,7 @@ main {
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 800px) 
+  and (max-device-width: 701px) 
   /* and (-webkit-min-device-pixel-ratio: 3) {  */{
 
     * {
