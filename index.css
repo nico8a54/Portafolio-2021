@@ -373,6 +373,7 @@ main {
 .index_image {
     width: 100%;
 }
+
 .work_indexCard-image {
     width: 100%;
     margin-bottom: 2.4rem;
@@ -551,6 +552,7 @@ main {
     width: 100%;
     max-width: 100%;
     height: auto;
+    margin: 3.2rem 0;
 }
 .imageMetodoly {
     width: 100%;
@@ -662,10 +664,7 @@ main {
     justify-content: center;
 }
 /* PAGE LIQUID */
-.imageHeroLiquid {
-    aspect-ratio: 1440 / 930;
-    background-image: url(./assets/liquidHero.png);
-}
+
 .imageLiquid1 {
     aspect-ratio: 1170 / 455;
     background-image: url(./assets/imageLiquid2.jpg);
