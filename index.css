@@ -352,7 +352,7 @@ main {
 .grid {
     width: 100%;
     display: grid;
-    gap: 2.0rem;
+    gap: 4rem;
 }
 .twoColumns {
     grid-template-columns: 1fr 1fr;
