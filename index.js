@@ -75,7 +75,7 @@ function delaySpinner () {
 }
 
 function showSpinner () {
-  spinner.style.opacity = "0";
+  spinner.style.opacity = "0.1";
   setTimeout (delaySpinner, 300);
 }
 
