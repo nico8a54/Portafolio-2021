@@ -373,6 +373,16 @@ main {
 .index_image {
     width: 100%;
 }
+.seeMoreButton {
+    background-color: transparent;
+    border: solid 1px;
+    border-radius: .5rem;
+    padding: 0.8rem 1.6rem;
+    margin: 1.6rem 0;
+    font-size: 1.6rem;
+    color: grey;
+    cursor: pointer;
+}
 
 .work_indexCard-image {
     width: 100%;
@@ -663,33 +673,16 @@ main {
     display: none;
     justify-content: center;
 }
-/* PAGE LIQUID */
 
-.imageLiquid1 {
-    aspect-ratio: 1170 / 455;
-    background-image: url(./assets/imageLiquid2.jpg);
-    margin-bottom: 6.4rem;
-}
-.imageLiquid2 {
-    aspect-ratio: 1170 / 558;
-    background-image: url(./assets/imageLiquid3.jpg);
-}
-.imageLiquid3 {
-    aspect-ratio: 1170 / 968;
-    background-image: url(./assets/imageLiquid4.jpg);
-    margin-bottom: 6.4rem;
-}
-.imageLiquid4 {
-    aspect-ratio: 1170 / 458;
-    background-image: url(./assets/imageLiquid5.jpg);
-}
+
+
 /* RESPONSIVE */
 
 
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 701px) 
+  and (max-device-width: 800px) 
   /* and (-webkit-min-device-pixel-ratio: 3) {  */{
 
     * {
